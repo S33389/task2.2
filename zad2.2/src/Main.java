@@ -20,14 +20,14 @@ public class Main {
             discount=1;
         }
         else if(age<=18){
-            discount = 0.5;
+            discount += 0.5;
         }
 
-        if(residence=="Warsaw"){
+        if(residence.equals("Warsaw")){
             discount+=0.1;
         }
 
-        if(day=="Thursday"){
+        if(day.equals("Thursday")){
             price=0;
             discount=1;
         }
